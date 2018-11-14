@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = F, warning = F, message = F)
 require(rgdal)
 require(readxl)
 require(dplyr)
